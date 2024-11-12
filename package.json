@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "listhen -w --open ./app.ts"
+  },
+  "name": "h3",
+  "version": "1.0.0",
+  "main": "app.ts",
+  "license": "MIT",
+  "dependencies": {
+    "h3": "^1.13.0"
+  },
+  "devDependencies": {
+    "listhen": "^1.9.0"
+  }
+}
