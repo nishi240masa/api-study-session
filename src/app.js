@@ -64,7 +64,7 @@ router
     })
   )
   .delete(
-    "/",
+    "/test",
     defineEventHandler((event) => {
       setResponseHeader(event, "Access-Control-Allow-Origin", "*");
       return { message: "Hello, World!" };
@@ -91,3 +91,5 @@ router.get(
     return { birthday, fortune };
   })
 );
+
+createServer(toNodeListener(app)).listen(process.env.PORT || 3000);
