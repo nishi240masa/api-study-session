@@ -91,5 +91,3 @@ router.get(
     return { birthday, fortune };
   })
 );
-
-createServer(toNodeListener(app)).listen(process.env.PORT || 3000);
