@@ -6,7 +6,7 @@ import {
   getQuery,
   setResponseHeader,
 } from "h3";
-import { getFortune } from "./src/omikuzi/omikuzi";
+import { getFortune } from "./omikuzi/omikuzi";
 
 // ここでappを作成している
 export const app = createApp();

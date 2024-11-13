@@ -1,6 +1,3 @@
-// h3:import
-import { createApp, createRouter, defineEventHandler } from "h3";
-
 // おみくじの結果の配列
 // DBの代わりに配列を使っている
 const fortunes = ["大吉", "中吉", "小吉", "吉", "末吉", "凶", "大凶"];
@@ -10,4 +7,3 @@ export function getFortune() {
   const randomIndex = Math.floor(Math.random() * fortunes.length);
   return fortunes[randomIndex];
 }
-
