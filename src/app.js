@@ -23,6 +23,15 @@ app.use(router);
 // DELETE: リソースの削除
 
 // ここでGETリクエストを受け取る
+
+router.get(
+  "/",
+  defineEventHandler((event) => {
+    setResponseHeader(event, "Access-Control-Allow-Origin", "*");
+    return { message: "これはgetの処理" };
+  })
+);
+
 router
   .get(
     "/test",
