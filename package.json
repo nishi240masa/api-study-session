@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "listhen -w --open ./app.ts"
+    "start": "listhen -w --open ./app.js"
   },
   "name": "h3",
   "version": "1.0.0",
