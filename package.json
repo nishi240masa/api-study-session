@@ -4,6 +4,7 @@
   },
   "name": "h3",
   "version": "1.0.0",
+  "type": "module",
   "main": "app.ts",
   "license": "MIT",
   "dependencies": {
